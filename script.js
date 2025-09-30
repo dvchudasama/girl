@@ -5,6 +5,7 @@ const messages = [
     "Thanks for being my girl :)",
     "Can't wait to do life w you",
     "Chicagoooo here we comeeeee !!!"
+    "ur a lil shit !!!"
 ];
 
 function showMessage(index) {
