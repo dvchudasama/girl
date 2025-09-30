@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e91e63; /* Pink header */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    color: #888;
+    font-size: 1.1em;
+}
+
+.button-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff6f91; /* Coral-pink button */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #c51162; /* Darker pink on hover */
+    transform: translateY(-2px);
+}
+
+#message-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e91e63;
+    min-height: 50px; /* Ensures the space is reserved */
+}
